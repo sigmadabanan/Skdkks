@@ -1,4 +1,4 @@
-    humanoid:MoveTo(fruit.PrimaryPart.Position) -- Move para a Fruta
+humanoid:MoveTo(fruit.PrimaryPart.Position) -- Move para a Fruta
     if (getCharacter().PrimaryPart.Position - fruit.PrimaryPart.Position).Magnitude <= 5 then
          getMouse():Click(0) -- Interage com a fruta (pegar)
     end
